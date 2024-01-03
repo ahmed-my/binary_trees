@@ -124,3 +124,4 @@ int binary_tree_is_complete(const binary_tree_t *tree)
 		pop(&head);
 	}
 	return (1);
+}
