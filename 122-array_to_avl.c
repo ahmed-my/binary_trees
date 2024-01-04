@@ -17,7 +17,7 @@ avl_t *array_to_avl(int *array, size_t size)
 
 	for (n = 0; n < size; n++)
 	{
-		for (m = 0; m < i; m++)
+		for (m = 0; m < n; m++)
 		{
 			if (array[m] == array[n])
 				break;
