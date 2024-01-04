@@ -118,7 +118,7 @@ int heap_extract(heap_t **root)
 	if (!root || !*root)
 		return (0);
 	right_heap = *root;
-	val = heap_r->n;
+	val = right_heap->n;
 	if (!right_heap->left && !right_heap->right)
 	{
 		*root = NULL;
